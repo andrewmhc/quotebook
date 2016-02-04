@@ -25,13 +25,10 @@ public class Quotebook extends AppCompatActivity {
         final TextView quoteText = (TextView) findViewById(R.id.quote);
         final TextView personText = (TextView) findViewById(R.id.person);
         final ArrayList<Quote> quoteList = new ArrayList<Quote>();
-        Quote quote4 = new Quote("You're more of a fun vampire. You don't suck blood, you just suck.", "Troy Barnes");
+        Quote quote4 = new Quote("Everything should be made as simple as possible, but not simpler.", "Albert Einstein");
                 quoteList.add(quote4);
         Quote quote1 = new Quote("Cool Beans", "Rod Kimble");
         quoteList.add(quote1);
-        Quote quote2 = new Quote("How can mirrors be real if our eyes aren't real",
-                "Jaden Smith");
-        quoteList.add(quote2);
         Quote quote3 = new Quote("That's like me blaming owls for how bad I suck at analogies.", "Britta Perry");
                 quoteList.add(quote3);
         Quote quote5 = new Quote("I was gonna be the first person in my family to graduate from community college. Everyone else graduated from normal college", "Troy Barnes");
